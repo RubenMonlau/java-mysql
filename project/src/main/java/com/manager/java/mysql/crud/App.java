@@ -24,8 +24,8 @@ public class App {
 
         EmpleadoDao dao = EmpleadoDaoImpl.getInstance();
 
-        Empleado emp = new Empleado("Luis Miguel", "López Magaña", LocalDate.of(1982, 9, 18),
-                "Profesor", "luismi@openwebinars.net");
+        Empleado emp = new Empleado("Rubén", "Rodríguez López", LocalDate.of(1982, 9, 18),
+                "Profesor", "rubenrod@campus.monlau.com");
 
         try {
             int n = dao.add(emp);
